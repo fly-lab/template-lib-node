@@ -1,8 +1,6 @@
 {
-	"extends": "@fly-lab/tsconfig/react.json",
-	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".eslintrc.cjs"],
+	"extends": "@fly-lab/tsconfig/node.json",
+	"include": ["**/*.ts", ".eslintrc.cjs"],
 	"exclude": ["node_modules"],
-	"compilerOptions": {
-		"jsx": "react"
-	}
+	"compilerOptions": {}
 }

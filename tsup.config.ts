@@ -8,7 +8,6 @@ const config: Options = {
 	splitting: false,
 	minify: "terser",
 	format: ["cjs", "esm"],
-	external: ["react"],
 };
 
 export default config;

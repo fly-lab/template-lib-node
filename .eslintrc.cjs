@@ -1,6 +1,6 @@
 module.exports = {
 	root: true,
-	extends: ["@fly-lab/eslint-config/react"],
+	extends: ["@fly-lab/eslint-config/node"],
 	parserOptions: {
 		tsconfigRootDir: __dirname,
 	},

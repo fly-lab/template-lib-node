@@ -1,7 +1,7 @@
 {
   "version": null,
-  "name": "@fly-lab/template-lib-react",
-  "description": "Starting reactjs library template with tsup.",
+  "name": "@fly-lab/template-lib-node",
+  "description": "Starting nodejs library template with tsup.",
   "private": true,
   "author": "DHN Chandan",
   "license": "MIT",
@@ -28,17 +28,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fly-lab/template-lib-react.git"
+    "url": "https://github.com/fly-lab/template-lib-node.git"
   },
   "bugs": {
     "email": "fly.dev.org@gmail.com",
-    "url": "https://github.com/fly-lab/template-lib-react/issues"
+    "url": "https://github.com/fly-lab/template-lib-node/issues"
   },
-  "homepage": "https://github.com/fly-lab/template-lib-react.git",
+  "homepage": "https://github.com/fly-lab/template-lib-node.git",
   "keywords": [
     "typescript",
     "javascript",
-    "react",
     "library",
     "npm",
     "tsup"
@@ -56,7 +55,6 @@
   "devDependencies": {
     "@fly-lab/eslint-config": "^1.2.1",
     "@fly-lab/tsconfig": "^3.0.1",
-    "@swc/core": "^1.3.96",
     "@types/node": "^20.9.0",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
